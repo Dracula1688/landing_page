@@ -1,0 +1,45 @@
+.toshkent{
+    width: 100%;
+    margin-top: 100px;
+}
+.toshkent_main{
+    width: 100%;
+    background: linear-gradient(to right, rgba(0,0,0, .9),rgba(0,0,0, .1),rgba(0,0,0, .1),rgba(0,0,0, .1)), url(../../images/hero-img/img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.toshkent_main_p{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 600;
+}
+.toshkent_main_p1{
+    font-size: 45px;
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 10px;
+}
+.toshkent_main_btn{
+    color: var(--white);
+    text-decoration: underline;
+}
+.icon{
+    font-size: 20px;
+}
+.span{
+    color: var(--pink);
+}
+.toshkent_main_div{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 100px;
+}
+.me_text_p2{
+    color: var(--white);
+}

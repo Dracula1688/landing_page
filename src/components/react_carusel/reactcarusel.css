@@ -1,0 +1,104 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.react_carusel{
+    margin-top: 100px;
+}
+.carusel_me{
+    width: 100%;
+    display: flex;
+}
+.carsel_me_div{
+    width: 100%;
+    height: 430px;
+    display: flex;
+}
+.carusel_me_img{
+    width: 50%;
+    height: 100%;
+}
+.carusel_me_img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.carusel_me_text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    background: var(--bg);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.carusel_me_text_p{
+    font-size: 24px;
+}
+.carusel_me_text_p1{
+    margin-top: 16px;
+    font-weight: 300;
+}
+.carusel_me_text_p2{
+    width: max-content;
+    margin-top: 16px;
+    text-decoration: underline;
+    color: var(--black);
+    font-size: 15px;
+    font-weight: 600;
+}
+.nextt_me{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 25px;
+    color: #000;
+    background: var(--white);
+    box-shadow: 0 0 3px .2px rgba(0, 0, 0, .1);
+}
+.prev_leftt{
+    left: -15px;
+}
+.next_leftt{
+    right: -15px;
+}
+@media screen and (max-width: 860px) {
+    .carusel_me_text_p{
+        font-size: 20px;
+    }
+    .carusel_me_text{
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .carsel_me_div{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .carusel_me_img{
+        width: 100%;
+        height: 90%;
+    }
+    .carusel_me_img img{
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .carusel_me_text{
+        width: 100%;   
+    }
+    .carusel_me_text_p{
+        font-size: 16px;
+    }
+}
