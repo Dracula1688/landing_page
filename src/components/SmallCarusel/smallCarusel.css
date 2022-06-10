@@ -1,0 +1,101 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+.carusel-me{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    /* top: 30px; */
+}
+.slick-arrow{
+    background: var(--grey-link);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.slick-arrow:hover{
+    background: var(--grey-link);
+}
+.carusel-slide{
+    width: 300px;
+}
+.allNight{
+    /* border: 1px solid; */
+    transform: scale(.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    transition: .5s;
+}
+.slide-abdumajid{
+    box-shadow: var(--box-shadow);
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plart{
+    font-size: 15px;
+    position: relative;
+    top: -11px;
+}
+.spasdd{
+    color: var(--grey-link);
+    font-size: 14px;
+}
+.spar{
+    color: var(--red);
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.region{
+    color: var(--grey-link);
+    font-size: 15px;
+    position: relative;
+    top: 4px;
+}
+.carusel-box{
+    /* padding: 50px 0; */
+    height: 600px;
+}
+.arrow-me{
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    font-size: 30px;
+}
+.arrow-right{
+    right: 50px;
+}
+.arrow-left{
+    left: 50px;
+}
+.linear{
+    animation-timing-function: linear;
+}
+.allNight.active{
+    transform: scale(1.1);
+}
+.carusel-img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    bottom: 25px;
+}
+.carusel-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
