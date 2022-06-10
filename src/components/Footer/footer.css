@@ -1,0 +1,62 @@
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+.Footer{
+    height: 600px;
+}
+.titleOF{
+    color: var(--black);
+    font-size: 44px;
+}
+.descrOF{
+    font-size: 14.5px;
+    position: relative;
+    top: 20px;
+    letter-spacing: 1px;
+    color: var(--black);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    width: 350px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid  var(--grey1);
+    border-radius: 10px;
+    outline: none;
+}
+.inputs input::placeholder{
+    letter-spacing: 2px;
+}
+.checkboxxx{
+    display: flex;
+    position: relative;
+    top: 20px;
+    align-items: center;
+}
+.btn-sig{
+    position: relative;
+    top: 60px;
+}
+.check{
+    width: 30px;
+}
+.pullar{
+    font-size: 13px;
+}
+.btns{
+    background: var(--black);
+    color: var(--wht);
+    letter-spacing: .5px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.juji{
+    position: relative;
+    top: 30px;
+}

@@ -5,6 +5,7 @@
 }
 body{
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 html{
   scroll-behavior: smooth;
@@ -20,7 +21,9 @@ a{
 }
 :root{
   --white: #fff;
+  --wht: #fff;
   --black: #000;
   --pink: #E01661;
   --bg: #F7F7F7;
+  --grey1: #484848;
 }

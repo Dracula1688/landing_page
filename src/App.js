@@ -6,6 +6,13 @@ import Text from "./components/text/Text";
 import ReactCarusel from "./components/react_carusel/ReactCarusel";
 // Toshkent
 import Toshkent from "./components/toshkent/Toshkent";
+import SmallCarusel from './components/SmallCarusel/SmalCarusel'
+import SecondHero from './components/SecondHero/SecondHero';
+import Support from './components/Support/Support'
+import ThirdHero from './components/ThirdHero/ThirdHero';
+import Footer from './components/Footer/Footer';
+
+
 
 function App() {
   return (
@@ -14,6 +21,11 @@ function App() {
         <Text/>
         <ReactCarusel/>
         <Toshkent/>
+        <SmallCarusel/>
+        <SecondHero/>
+        <Support/>
+        <ThirdHero/>
+        <Footer/>
     </div>
   );
 }

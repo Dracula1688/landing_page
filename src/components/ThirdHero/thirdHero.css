@@ -1,0 +1,59 @@
+.ThirdHero{
+    width: 100%;
+    background-image: url(../../images/thirdHero-img/img7.webp);
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+}
+.ThirdHero-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 530px;
+}
+.h345{
+    color: var(--wht);
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+.deck{
+    color: var(--wht);
+    letter-spacing: 0.8px;
+    font-size: 19px;
+    position: relative;
+    top: 10px;
+}
+.btn-a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--pink);
+    width: 180px;
+    height: 55px;
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+}
+.btn-a3 a{
+    color: var(--wht);
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* media screen */
+@media screen and (max-width: 768px) {
+    .ThirdHero{
+        height: 500px;
+    }
+    .h345{
+        font-size: 38px;
+    }
+    .deck{
+        font-size: 17px;
+    }
+    .btn-a3 a{
+        font-size: 17px;
+    }
+}
